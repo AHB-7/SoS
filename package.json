@@ -6,7 +6,8 @@
     "scripts": {
         "build": "sass src/scss:dist/css",
         "start": "sass --watch src/scss:dist/css & live-server",
-        "lint": "eslint src/**/*.js"
+        "lint": "eslint src/**/*.js",
+        "format": "prettier src/**/*.js"
     },
     "keywords": [],
     "author": "Noroff",
@@ -18,6 +19,7 @@
         "eslint-plugin-n": "^16.6.2",
         "eslint-plugin-promise": "^6.1.1",
         "live-server": "^1.2.2",
+        "prettier": "^3.2.5",
         "sass": "^1.54.8"
     },
     "dependencies": {
