@@ -10,12 +10,14 @@
       },
       "overrides": [
             {
-                  "files": ["src/**/*.test.js"],
+                  "files": ["src/**/*.test.js", "./**/*.mock.js"],
                   "env": { "jest": true },
                   "plugins": ["jest"],
                   "extends": ["plugin:jest/recommended"],
                   "rules": { "jest/prefer-expect-assertions": "off" }
             }
       ],
-      "rules": {}
+      "rules": {
+            "no-undef": "off"
+      }
 }

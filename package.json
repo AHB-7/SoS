@@ -1,7 +1,7 @@
 {
       "name": "css-frameworks-ca",
-      "version": "2.1.0",
-      "description": "Jest is ready to be used for the unit tests",
+      "version": "2.1.1",
+      "description": "Updates to the unit testing for the login function",
       "type": "module",
       "main": "index.js",
       "scripts": {
