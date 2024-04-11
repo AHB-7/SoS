@@ -1,7 +1,7 @@
 {
-      "name": "css-frameworks-ca",
-      "version": "2.1.1",
-      "description": "Updates to the unit testing for the login function",
+      "name": "jest-unit-testing",
+      "version": "2.5.0",
+      "description": "Updates to the unit testing for the login function and add the unit test for the logout function. The test been run on two diffrent objects",
       "type": "module",
       "main": "index.js",
       "scripts": {
