@@ -1,7 +1,7 @@
 {
-      "name": "jest-unit-testing",
-      "version": "2.5.0",
-      "description": "Updates to the unit testing for the login function and add the unit test for the logout function. The test been run on two diffrent objects",
+      "name": "cypress-e2e-testing",
+      "version": "2.6.0",
+      "description": "Cypress installation",
       "type": "module",
       "main": "index.js",
       "scripts": {
@@ -10,8 +10,9 @@
             "lint": "eslint src/**/*.js",
             "format": "prettier src/**/*.js",
             "prepare": "husky install",
-            "test": "npm run test-unit",
-            "test-unit": "jest"
+            "test": "npm run test-unit && npm run test-e2e",
+            "test-unit": "jest",
+            "test-e2e": "cypress open"
       },
       "keywords": [],
       "author": "Noroff",
@@ -20,8 +21,10 @@
             "@babel/core": "^7.19.3",
             "@babel/preset-env": "^7.19.4",
             "babel-jest": "^29.7.0",
+            "cypress": "^13.7.2",
             "eslint": "^8.57.0",
             "eslint-config-standard": "^17.1.0",
+            "eslint-plugin-cypress": "^2.15.1",
             "eslint-plugin-import": "^2.29.1",
             "eslint-plugin-jest": "^28.2.0",
             "eslint-plugin-n": "^16.6.2",
