@@ -1,6 +1,6 @@
 {
       "name": "cypress-e2e-testing",
-      "version": "2.6.0",
+      "version": "2.8.0",
       "description": "Cypress installation",
       "type": "module",
       "main": "index.js",
@@ -22,6 +22,7 @@
             "@babel/preset-env": "^7.19.4",
             "babel-jest": "^29.7.0",
             "cypress": "^13.7.2",
+            "dotenv": "^16.4.5",
             "eslint": "^8.57.0",
             "eslint-config-standard": "^17.1.0",
             "eslint-plugin-cypress": "^2.15.1",
